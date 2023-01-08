@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap');
+
+
+/* font-family 'Lobster', cursive;
+font-family 'Permanent Marker', cursive;
+font-family: 'Chivo Mono', monospace; */
+body{
+    background-color: blanchedalmond;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Chivo Mono', monospace;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 50px;
+    background-color: black;
+   color:aliceblue
+    
+}
+
+nav ul li{
+    padding: 12px ;
+}
+.brand img{
+    width:44px;
+    padding: 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+   font-weight:bolder;
+   font-size:1.3rem
+}
+
+.conatiner{
+    min-height: 75vh;
+    background-color: black;
+    color: red;
+    font-family: 'Chivo Mono', monospace;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px; 
+   background-image: url(./eminemi.jpg);
+}
+
+.bottombar{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 34px;
+}
+
+.icons i{
+    cursor:pointer;
+    color:white;
+    padding: 10px;
+}
+
+.imager{
+    color:white;
+}
+
+#progressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songitem{
+    height: 60px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin: 15px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songitem img{
+  width: 50px;
+  margin: 0 20px;
+  border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer ;
+}
+
+.songitemscontainer{
+    margin-top: 104px;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    color: red;
+    font-family:'Chivo Mono', monospace; ;
+}
+
+.songInfo img{
+   opacity: 0;
+   transition: opacity 0.5s ease-in;
+}
